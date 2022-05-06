@@ -55,7 +55,7 @@ function App(){
             About
           </h2>
           <div className="divabout">
-            <img class="img" src={self} />
+            <img class="img" alt="brown boy smoulder" src={self} />
             <div className="about-body">
               Before I began my software development journey,<br></br>I was
               pursuing a double major<br></br> in International Business and
@@ -77,6 +77,7 @@ function App(){
             className="link"
             href="https://gospelofgraceacademy.org/"
             target="_blank"
+            rel="noreferrer"
           >
             Gospel of Grace{" "}
           </a>{" "}
@@ -97,6 +98,7 @@ function App(){
             className="link"
             href="https://open.spotify.com/episode/05QvMoIpoE9td0Wjx8aTO4?si=83d19cf03c2d405e"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Robert J. O'Neill
@@ -106,6 +108,7 @@ function App(){
             className="link"
             href="https://open.spotify.com/episode/17W5kB8yIRr2BeAm1tpw7o?si=507d993cb1454021"
             target="_blank"
+            rel="noreferrer"
           >
             Emily Hampshire
           </a>
@@ -114,6 +117,7 @@ function App(){
             className="link"
             href="https://open.spotify.com/episode/2wi5SxYiNTuYVTotxajsxs?si=bbe3db2c6f7e4025"
             target="_blank"
+            rel="noreferrer"
           >
             Harvey Guillen
           </a>
