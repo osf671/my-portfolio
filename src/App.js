@@ -26,7 +26,7 @@ function App(){
           </li>
         </ul>
       </header>
-      <body class="body">
+      <body class="body" id ="home">
         <div id="home" style={{ minHeight: "10rem" }}>
           <br></br>
           <br></br>
@@ -45,6 +45,11 @@ function App(){
           </em>
           .<br></br>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         <br></br>
