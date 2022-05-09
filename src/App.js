@@ -68,7 +68,7 @@ function App(){
               Spanish <br></br>at the University of Cincinnati. While doing so,{" "}
               <br></br> I completed an apprenticeship at Tensure.io <br></br>to
               broaden my abilites,<br></br> once I realized my passion for
-              programming,<br></br> I never looked back
+              programming,<br></br> I never looked back.
             </div>
           </div>
         </section>
@@ -98,7 +98,9 @@ function App(){
           Podcast
         </h2>
         <div className="podcast-body">
-          In my free time, I like to do a podcast.<br></br> Some of our guests
+          In my free time, I like to do a podcast.<br></br>
+          We talk life, and how we got to where we are. <br></br>
+          Some of our guests
           include<br></br>
           <a
             className="link"
