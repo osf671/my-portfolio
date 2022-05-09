@@ -1,6 +1,7 @@
 import "./App.css";
 import self from "./selfPhoto.jpeg";
 import SocialFollow from "./SocialFollow.js";
+
 //Hello! Thank you for coming, please reach out for any questions.
 function App(){
   return (
@@ -88,9 +89,9 @@ function App(){
         </div>
         </section>
         <section>
-        <div className="podcast" id="podcast">
+        <h2 className="podcast" id="podcast">
           Podcast
-        </div>
+        </h2>
         <div className="podcast-body">
           In my free time, I like to do a podcast.<br></br> Some of our guests
           include<br></br>

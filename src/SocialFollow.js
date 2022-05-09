@@ -1,10 +1,13 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faTwitter,
   faInstagram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { library } from '@fortawesome/fontawesome-svg-core'
+library.add(faLinkedin)
 
 export default function SocialFollow() {
   return (
@@ -21,6 +24,10 @@ export default function SocialFollow() {
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
+      <a href="https://www.linkedin.com/in/omar-fallon/"
+        className="instagram social">
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
     </div>
   );
 }
