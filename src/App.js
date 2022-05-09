@@ -22,7 +22,7 @@ function App(){
             <a href="#podcast">Podcast</a>
           </li>
           <li>
-            <a href="#contact">Connect</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </header>
