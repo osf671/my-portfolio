@@ -39,15 +39,15 @@ function App(){
             deliver<br></br> the best projects possible.
           </em>
           <br></br>
+        <br></br>
+        <br></br>
+          <br></br>
           <br></br>{" "}
           <em>
             Half Irish, half Indian means your diversity numbers skyrocket
           </em>
           .<br></br>
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
