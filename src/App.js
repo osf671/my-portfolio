@@ -1,7 +1,11 @@
 import "./App.css";
 import self from "./selfPhoto.jpeg";
 import SocialFollow from "./SocialFollow.js";
-
+import Carousel, {CarouselItem} from "./Carousel"
+import Leon from './Leon.jpg'
+import Beatles from './Beatles.jpg'
+import Caamp from './Caamp.jpg'
+ 
 //Hello! Thank you for coming, please reach out for any questions.
 function App(){
   return (
@@ -36,22 +40,39 @@ function App(){
         <div className="flip-2">
           <em>
             I'm a Full-Stack Developer that uses my business backround to
-            deliver<br></br> the best projects possible.
+            deliver<br></br> the best projects possible. I love React and connecting with people.
+            Half Irish, half Indian means your diversity numbers skyrocket.
           </em>
           <br></br>
-        <br></br>
-        <br></br>
           <br></br>
           <br></br>{" "}
           <em>
-            Half Irish, half Indian means your diversity numbers skyrocket
+          Before you continue, here's my top 3 albums right now as some background noise while learning about me 
           </em>
-          .<br></br>
+          <br></br>
+          <div>
+          <Carousel>
+            <CarouselItem>
+              <a href="https://open.spotify.com/album/6RgGsXtsTnwA53ts3jDeDW?si=ZAfacCdrSaid8MRByjBspw">
+              <img src={Caamp} alt="caamp"/>
+              </a>
+              </CarouselItem>
+            <CarouselItem>
+              <a href="https://open.spotify.com/album/21KIagsx1ZvYcv0sVkEAWv?si=qIKVNTygQy-uNw7pr7tPzg">
+            <img src={Leon} alt="leon"/>
+            </a>
+              </CarouselItem>
+            <CarouselItem>
+            <a href="https://open.spotify.com/album/6QaVfG1pHYl1z15ZxkvVDW?si=Ry9Sb-rnQv-rYT0P3CeCkQ">
+            <img src={Beatles} alt="beatles"/>
+            </a>
+            </CarouselItem>
+          </Carousel>
+          <p>*Woah a carousel that pauses when you hover over it made from scratch? We have to hire this guy asap!</p>
+          </div>
+        <br></br>
+        <br></br>
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -77,7 +98,7 @@ function App(){
           Recently
         </h2>
         <div className="recently-body">
-          My most recent project was for <br></br> a non-profit organization in
+          Recently, I built a Wordpress site for <br></br> a non-profit organization in
           Haiti.<br></br>{" "}
           <a
             className="link"
@@ -88,9 +109,8 @@ function App(){
             Gospel of Grace{" "}
           </a>{" "}
           builds orphanages and establishes<br></br> communities while
-          developing the next generation of leaders.<br></br> I used custom
-          coding and hosted in Wordpress <br></br> so that my client could make
-          changes when necessary.
+          developing the next generation of leaders.<br></br> Although Wordpress isn't something I utilize often or focus on,<br></br> the organization is close to my heart
+          and I wanted to display it here
         </div>
         </section>
         <section>
@@ -98,39 +118,43 @@ function App(){
           Podcast
         </h2>
         <div className="podcast-body">
-          In my free time, I like to do a podcast.<br></br>
-          We talk life, and how we got to where we are. <br></br>
-          Some of our guests
+          In my free time, I like to do a podcast called Lesson Learned.<br></br>
+          It's a mental health podcast where we talk about  <br></br>
+          lessons we've learned while navigating life. Some of my guests
           include<br></br>
           <a
             className="link"
-            href="https://open.spotify.com/episode/05QvMoIpoE9td0Wjx8aTO4?si=83d19cf03c2d405e"
+            href="https://open.spotify.com/episode/4HGEq1ntz5S6HFKiDVsXj3?si=5cd7516ffaf145cb"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            Robert J. O'Neill
+            Quinn XCII
           </a>{" "}
-          (Seal Team Six Member), <br></br>
+          (Musician), <br></br>
           <a
             className="link"
-            href="https://open.spotify.com/episode/17W5kB8yIRr2BeAm1tpw7o?si=507d993cb1454021"
+            href="https://open.spotify.com/episode/2eB707ZikKxipFdVNRBFaf?si=320078fa39d14ec7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kota the Friend
+          </a>
+          (Independent Rapper),<br></br>{" "}
+          <a
+            className="link"
+            href="https://open.spotify.com/episode/0uYGP8T6gqHB2GgExC6BkY?si=83ee5d9dbb464d40"
             target="_blank"
             rel="noreferrer"
           >
             Emily Hampshire
           </a>
-          (Schitts Creek Actress),<br></br>{" "}
-          <a
-            className="link"
-            href="https://open.spotify.com/episode/2wi5SxYiNTuYVTotxajsxs?si=bbe3db2c6f7e4025"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Harvey Guillen
-          </a>
-          (Emmy Award Winning Actor), and more
+          (Schitts Creek Actress),
+          <br></br>
+           and more coming soon
         </div>
+        </section>
+        <section>
         </section>
         <h2 className="contact" id="contact">
           Let's Connect
@@ -147,3 +171,4 @@ function App(){
 }
 
 export default App;
+
