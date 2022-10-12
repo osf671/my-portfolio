@@ -2,7 +2,7 @@
   text-align: center;
   padding:10px;
   color: white;
-  background-color: black;
+  background-color: #07204a;
 }
 
 .flip-1, .flip-2, .flip-3 {
@@ -35,7 +35,7 @@ html, body {
 }  
 
 .social-container {
-  background: black;
+  background: #07204a;
   padding: 25px 50px;
 }
 a.social {
