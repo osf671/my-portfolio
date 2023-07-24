@@ -95,22 +95,29 @@ function App(){
         </section>
         <section>
         <h2 className="recently" id="recently">
-          Recently
+          Work
         </h2>
         <div className="recently-body">
-          Recently, I built a Wordpress site for <br></br> a non-profit organization in
-          Haiti.<br></br>{" "}
+         My Recent work, includes development on sites like 
+        {" "}
           <a
             className="link"
-            href="https://gospelofgraceacademy.org/"
+            href="https://pureromance.com/"
             target="_blank"
             rel="noreferrer"
           >
-            Gospel of Grace{" "}
+            Pure Romance{" "}
           </a>{" "}
-          builds orphanages and establishes<br></br> communities while
-          developing the next generation of leaders.<br></br> Although Wordpress isn't something I utilize often or focus on,<br></br> the organization is close to my heart
-          and I wanted to display it here
+          ,
+          <a
+            className="link"
+            href="https://tirediscounters.com/home"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Tire Discounters{" "}
+          </a>{" "}
+          and many more. I've used frontend technologies ranging from: JS, HTML, CSS, React, React Native, and dart. I've also learned and utilized backend technologies such as Node and Ruby on Rails to deliver the best work possible
         </div>
         </section>
         <section>
